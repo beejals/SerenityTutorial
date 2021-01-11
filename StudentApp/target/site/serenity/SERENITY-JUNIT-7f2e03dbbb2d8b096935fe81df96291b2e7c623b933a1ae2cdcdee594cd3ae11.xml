@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="1" name="com.studentapp.junit.Feature1.FirstSerenityTest" skipped="4" tests="8" time="6.52" timestamp="2021-01-11 10:56:25"><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="This is a failing test"><failure message="1 expectation failed.&#10;Expected status code &lt;500&gt; but was &lt;200&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;500&gt; but was &lt;200&gt;.
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:643)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+com.studentapp.junit.Feature1.FirstSerenityTest.thisIsAFailingTest(FirstSerenityTest.java:46)
+</system-err></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="This is a skipped test"><skipped/></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="Get Student Information from Student App"/><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="This is a pending test"><skipped/></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="This is a manual test"><skipped/></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="File does not exist"><compromised message="E:/file.txt (No such file or directory)" type="java.io.FileNotFoundException">E:/file.txt (No such file or directory)</compromised><system-err>E:/file.txt (No such file or directory)
+com.studentapp.junit.Feature1.FirstSerenityTest.fileDoesNotExist(FirstSerenityTest.java:69)
+</system-err></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="This is a error test"><error message="/ by zero" type="java.lang.ArithmeticException">/ by zero</error><system-err>/ by zero
+com.studentapp.junit.Feature1.FirstSerenityTest.thisIsAErrorTest(FirstSerenityTest.java:63)
+</system-err></testcase><testcase classname="com.studentapp.junit.Feature1.FirstSerenityTest" name="Get all students"/></testsuite>

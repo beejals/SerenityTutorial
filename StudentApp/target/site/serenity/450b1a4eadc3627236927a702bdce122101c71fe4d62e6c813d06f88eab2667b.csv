@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Students CRUD with steps test","Create a New Student","SUCCESS","2021-01-11T22:56:36.681Z[Etc/UTC]","0.0","0.35"
+"Students CRUD with steps test","Verify New Student is Created","SUCCESS","2021-01-11T22:56:37.03Z[Etc/UTC]","0.0","0.35"
+"Students CRUD with steps test","Update the Student Name and Verify","SUCCESS","2021-01-11T22:56:37.385Z[Etc/UTC]","0.0","0.38"
+"Students CRUD with steps test","Delete the Student and Verify","SUCCESS","2021-01-11T22:56:37.771Z[Etc/UTC]","0.0","0.41"
